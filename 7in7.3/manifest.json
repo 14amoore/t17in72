@@ -1,0 +1,24 @@
+{
+  "name": "Cookie Detection Try",
+  "version": "1.0",
+  "description": "7 in 7 day 2 third thing",
+  "permissions": ["cookies", "tabs", "http://*/*", "https://*/*"],
+  "background": {
+    "scripts": ["cookie.js"],
+    "persistent": false
+  },
+  "default_icon": {
+    "16": "images/get_started16.png",
+    "32": "images/get_started32.png",
+    "48": "images/get_started48.png",
+    "128": "images/get_started48.png"
+  },
+
+  "icons": {
+    "16": "images/get_started16.png",
+    "32": "images/get_started32.png",
+    "48": "images/get_started48.png",
+    "128": "images/get_started48.png"
+  },
+  "manifest_version": 1
+}
